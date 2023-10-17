@@ -25,10 +25,11 @@ npm init -y
 ## 디렉토리 설명
 ### config
 > 데이터베이스 접속에 관한 설정들이 들어 있는 폴더입니다.
+
 > development 객체, test 객체, production 객체가 있고, 개발할 때는 development 객체를 사용합니다
 
 ### migration, models
-> migration은 mysql에 테이블을 만들 때 사용하는 폴더입니다.
+> migration은 MySQL에 테이블을 만들 때 사용하는 폴더입니다.
 
 > model을 생성합니다.
 
@@ -57,7 +58,7 @@ seeder 파일 생성
 npx sequelize seed:generate --name initialCooperate
 ```
 ```
-npx sequelize seed:generate --name initisalNotice
+npx sequelize seed:generate --name initialNotice
 ```
 
 seed 모든 데이터 삽입

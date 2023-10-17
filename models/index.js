@@ -8,9 +8,11 @@ const sequelize = new Sequelize('####', '####', '####', {
   port: "####",
 });
 
+// cooperate, notice 모델을 가져옵니다.
 const cooperate = require('./cooperate')(sequelize, Sequelize.DataTypes);
 const notice = require('./notice.js')(sequelize, Sequelize.DataTypes);
 
+// db에 객체를 넣어 export 하여 다른 .js 파일에서도 cooperate, notice 모델을 사용할 수 있게 합니다.
 const db = {};
 db.cooperate = cooperate;
 db.notice = notice;

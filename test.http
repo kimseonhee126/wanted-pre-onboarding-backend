@@ -1,0 +1,75 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/register
+
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{    
+    "id": 2,
+    "position": "백엔드 주니어 개발자",
+    "award": 1000000,
+    "detail": "원티드랩에서 백엔드 주니어 개발자를 채용합니다. 자격요건은..",
+    "tech": "Python"
+}
+
+###
+PUT http://localhost:3000/register/1
+Content-Type: application/json
+
+{    
+    "id": 1,
+    "position": "백엔드 주니어 개발자",
+    "award": 2500000,
+    "detail": "원티드랩에서 백엔드 주니어 개발자를 채용합니다. 자격요건은..",
+    "tech": "Django"
+}
+
+###
+DELETE http://localhost:3000/register/2
+
+
+###
+POST http://localhost:3000/recruit
+Content-Type: application/json
+
+{    
+    "id": 2,
+    "name": "원티드랩",
+    "country": "한국",
+    "city": "서울",
+    "position": "백엔드 주니어 개발자",
+    "award": 15000000,
+    "detail": "",
+    "tech": "Python"
+}
+
+###
+
+{    
+    "id": 1,
+    "name": "원티드랩",
+    "country": "한국",
+    "city": "서울",
+    "position": "백엔드 주니어 개발자",
+    "award": 15000000,
+    "detail": "",
+    "tech": "Python"
+},
+{
+    "id": 4,
+    "name": "카카오",
+    "country": "한국",
+    "city": "판교",
+    "position": "백엔드 주니어 개발자",
+    "award": 15000000,
+    "detail": "",
+    "tech": "Python"
+}
+
+###
+PUT 
+

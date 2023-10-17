@@ -2,10 +2,10 @@ const Sequelize = require('sequelize');
 const config = require('../config/config.json');
 
 // const { database, host, passwd } = config.development;
-const sequelize = new Sequelize('company', 'root', 'wktlr011226!', {
+const sequelize = new Sequelize('####', '####', '####', {
   host: '127.0.0.1',
   dialect: 'mysql',
-  port: 8080,
+  port: "####",
 });
 
 const cooperate = require('./cooperate')(sequelize, Sequelize.DataTypes);

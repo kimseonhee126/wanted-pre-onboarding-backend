@@ -57,7 +57,7 @@ seeder 파일 생성
 npx sequelize seed:generate --name initialCooperate
 ```
 ```
-npx sequelize seed:generate --name initialNotice
+npx sequelize seed:generate --name initisalNotice
 ```
 
 seed 모든 데이터 삽입
